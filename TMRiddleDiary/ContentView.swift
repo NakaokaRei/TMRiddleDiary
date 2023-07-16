@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import PencilKit
 
 struct ContentView: View {
+    @State var canvasView = PKCanvasView()
+    let textRecognizer = TextRecognizer()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            DrawingView(canvasView: $canvasView)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            Button(action: {
+                textRecognizer.recognizeText(canvasView: canvasView)
+                canvasView.drawing = PKDrawing()
+            }) {
+                Text("Recognize")
+            }
         }
-        .padding()
     }
 }
 

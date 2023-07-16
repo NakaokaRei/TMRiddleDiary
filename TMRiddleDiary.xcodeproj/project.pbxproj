@@ -11,6 +11,8 @@
 		5C6EEE932A62B1B400E35CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EEE922A62B1B400E35CC9 /* ContentView.swift */; };
 		5C6EEE952A62B1B600E35CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EEE942A62B1B600E35CC9 /* Assets.xcassets */; };
 		5C6EEE982A62B1B600E35CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EEE972A62B1B600E35CC9 /* Preview Assets.xcassets */; };
+		5C99007B2A642F86005C0E5F /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C99007A2A642F86005C0E5F /* DrawingView.swift */; };
+		5C99007D2A64301E005C0E5F /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C99007C2A64301E005C0E5F /* TextRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5C6EEE922A62B1B400E35CC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C6EEE942A62B1B600E35CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C6EEE972A62B1B600E35CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C99007A2A642F86005C0E5F /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		5C99007C2A64301E005C0E5F /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				5C6EEE922A62B1B400E35CC9 /* ContentView.swift */,
 				5C6EEE942A62B1B600E35CC9 /* Assets.xcassets */,
 				5C6EEE962A62B1B600E35CC9 /* Preview Content */,
+				5C99007A2A642F86005C0E5F /* DrawingView.swift */,
+				5C99007C2A64301E005C0E5F /* TextRecognizer.swift */,
 			);
 			path = TMRiddleDiary;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C99007D2A64301E005C0E5F /* TextRecognizer.swift in Sources */,
+				5C99007B2A642F86005C0E5F /* DrawingView.swift in Sources */,
 				5C6EEE932A62B1B400E35CC9 /* ContentView.swift in Sources */,
 				5C6EEE912A62B1B400E35CC9 /* TMRiddleDiaryApp.swift in Sources */,
 			);
@@ -272,7 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TMRiddleDiary/Preview Content\"";
-				DEVELOPMENT_TEAM = 7ZJJ7KR6WA;
+				DEVELOPMENT_TEAM = ZY6FK4H66Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -306,7 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TMRiddleDiary/Preview Content\"";
-				DEVELOPMENT_TEAM = 7ZJJ7KR6WA;
+				DEVELOPMENT_TEAM = ZY6FK4H66Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
